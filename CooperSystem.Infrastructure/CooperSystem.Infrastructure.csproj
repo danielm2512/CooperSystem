@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="6.2.0" />
+    <PackageReference Include="Dapper" Version="2.0.90">
+      <TreatAsUsed>true</TreatAsUsed>
+    </PackageReference>
+    <PackageReference Include="MongoDB.Bson" Version="2.12.4">
+      <TreatAsUsed>true</TreatAsUsed>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CooperSystem.Aplication\CooperSystem.Application.csproj" />
+    <ProjectReference Include="..\CooperSystem.Aplication\CooperSystem.Application.csproj" />
+  </ItemGroup>
+
+</Project>

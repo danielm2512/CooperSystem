@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Entities\**" />
+    <Compile Remove="Stores\**" />
+    <EmbeddedResource Remove="Entities\**" />
+    <EmbeddedResource Remove="Stores\**" />
+    <None Remove="Entities\**" />
+    <None Remove="Stores\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.1.4">
+      <TreatAsUsed>true</TreatAsUsed>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>

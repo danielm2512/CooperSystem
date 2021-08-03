@@ -1,0 +1,17 @@
+E:\ProjetosCode\Entrevistas\CooperSystem\Code\CooperSystem.Infrastructure\bin\Debug\net5.0\CooperSystem.Infrastructure.deps.json
+E:\ProjetosCode\Entrevistas\CooperSystem\Code\CooperSystem.Infrastructure\bin\Debug\net5.0\CooperSystem.Infrastructure.dll
+E:\ProjetosCode\Entrevistas\CooperSystem\Code\CooperSystem.Infrastructure\bin\Debug\net5.0\ref\CooperSystem.Infrastructure.dll
+E:\ProjetosCode\Entrevistas\CooperSystem\Code\CooperSystem.Infrastructure\bin\Debug\net5.0\CooperSystem.Infrastructure.pdb
+E:\ProjetosCode\Entrevistas\CooperSystem\Code\CooperSystem.Infrastructure\bin\Debug\net5.0\CooperSystem.Application.dll
+E:\ProjetosCode\Entrevistas\CooperSystem\Code\CooperSystem.Infrastructure\bin\Debug\net5.0\CooperSystem.Domain.dll
+E:\ProjetosCode\Entrevistas\CooperSystem\Code\CooperSystem.Infrastructure\bin\Debug\net5.0\CooperSystem.Application.pdb
+E:\ProjetosCode\Entrevistas\CooperSystem\Code\CooperSystem.Infrastructure\bin\Debug\net5.0\CooperSystem.Domain.pdb
+E:\ProjetosCode\Entrevistas\CooperSystem\Code\CooperSystem.Infrastructure\obj\Debug\net5.0\CooperSystem.Infrastructure.csproj.AssemblyReference.cache
+E:\ProjetosCode\Entrevistas\CooperSystem\Code\CooperSystem.Infrastructure\obj\Debug\net5.0\CooperSystem.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\ProjetosCode\Entrevistas\CooperSystem\Code\CooperSystem.Infrastructure\obj\Debug\net5.0\CooperSystem.Infrastructure.AssemblyInfoInputs.cache
+E:\ProjetosCode\Entrevistas\CooperSystem\Code\CooperSystem.Infrastructure\obj\Debug\net5.0\CooperSystem.Infrastructure.AssemblyInfo.cs
+E:\ProjetosCode\Entrevistas\CooperSystem\Code\CooperSystem.Infrastructure\obj\Debug\net5.0\CooperSystem.Infrastructure.csproj.CoreCompileInputs.cache
+E:\ProjetosCode\Entrevistas\CooperSystem\Code\CooperSystem.Infrastructure\obj\Debug\net5.0\CooperSystem.Infrastructure.csproj.CopyComplete
+E:\ProjetosCode\Entrevistas\CooperSystem\Code\CooperSystem.Infrastructure\obj\Debug\net5.0\CooperSystem.Infrastructure.dll
+E:\ProjetosCode\Entrevistas\CooperSystem\Code\CooperSystem.Infrastructure\obj\Debug\net5.0\ref\CooperSystem.Infrastructure.dll
+E:\ProjetosCode\Entrevistas\CooperSystem\Code\CooperSystem.Infrastructure\obj\Debug\net5.0\CooperSystem.Infrastructure.pdb

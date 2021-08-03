@@ -1,0 +1,22 @@
+{
+  "defaultAssembly": "CooperSystem.Infrastructure",
+  "modules": [
+    {
+      "type": "CooperSystem.WebApi.Module, CooperSystem.WebApi",
+      "properties": {
+      }
+    },
+    {
+      "type": "CooperSystem.Infrastructure.ApplicationModule",
+      "properties": {
+      }
+    },
+    {
+      "type": "CooperSystem.Infrastructure.Data.Module",
+      "properties": {
+        "ConnectionString": "Persist Security Info=False;Initial Catalog=SkytechSystem;MultipleActiveResultSets=True;data source=localhost\\SQLEXPRESS;Integrated Security=SSPI",
+      }
+    },
+  ]
+}
+

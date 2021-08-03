@@ -1,0 +1,15 @@
+E:\ProjetosCode\Entrevistas\CooperSystem\Code\CooperSystem.Aplication\bin\Debug\net5.0\CooperSystem.Application.deps.json
+E:\ProjetosCode\Entrevistas\CooperSystem\Code\CooperSystem.Aplication\bin\Debug\net5.0\CooperSystem.Application.dll
+E:\ProjetosCode\Entrevistas\CooperSystem\Code\CooperSystem.Aplication\bin\Debug\net5.0\ref\CooperSystem.Application.dll
+E:\ProjetosCode\Entrevistas\CooperSystem\Code\CooperSystem.Aplication\bin\Debug\net5.0\CooperSystem.Application.pdb
+E:\ProjetosCode\Entrevistas\CooperSystem\Code\CooperSystem.Aplication\bin\Debug\net5.0\CooperSystem.Domain.dll
+E:\ProjetosCode\Entrevistas\CooperSystem\Code\CooperSystem.Aplication\bin\Debug\net5.0\CooperSystem.Domain.pdb
+E:\ProjetosCode\Entrevistas\CooperSystem\Code\CooperSystem.Aplication\obj\Debug\net5.0\CooperSystem.Application.csproj.AssemblyReference.cache
+E:\ProjetosCode\Entrevistas\CooperSystem\Code\CooperSystem.Aplication\obj\Debug\net5.0\CooperSystem.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\ProjetosCode\Entrevistas\CooperSystem\Code\CooperSystem.Aplication\obj\Debug\net5.0\CooperSystem.Application.AssemblyInfoInputs.cache
+E:\ProjetosCode\Entrevistas\CooperSystem\Code\CooperSystem.Aplication\obj\Debug\net5.0\CooperSystem.Application.AssemblyInfo.cs
+E:\ProjetosCode\Entrevistas\CooperSystem\Code\CooperSystem.Aplication\obj\Debug\net5.0\CooperSystem.Application.csproj.CoreCompileInputs.cache
+E:\ProjetosCode\Entrevistas\CooperSystem\Code\CooperSystem.Aplication\obj\Debug\net5.0\CooperSystem.Application.csproj.CopyComplete
+E:\ProjetosCode\Entrevistas\CooperSystem\Code\CooperSystem.Aplication\obj\Debug\net5.0\CooperSystem.Application.dll
+E:\ProjetosCode\Entrevistas\CooperSystem\Code\CooperSystem.Aplication\obj\Debug\net5.0\ref\CooperSystem.Application.dll
+E:\ProjetosCode\Entrevistas\CooperSystem\Code\CooperSystem.Aplication\obj\Debug\net5.0\CooperSystem.Application.pdb
