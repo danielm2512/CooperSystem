@@ -1,4 +1,9 @@
-﻿using CooperSystem.Domain.Dto;
+﻿using CooperSystem.Application.UseCases.Marca.AddMarca;
+using CooperSystem.Application.UseCases.Marca.DeleteMarca;
+using CooperSystem.Application.UseCases.Marca.GetAllMarca;
+using CooperSystem.Application.UseCases.Marca.GetDetailMarca;
+using CooperSystem.Application.UseCases.Marca.UpdateMarca;
+using CooperSystem.Domain.Dto;
 using CooperSystem.WebApi.Presenter;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -20,6 +25,11 @@ namespace CooperSystem.WebApi.Controllers
     public class MarcaController : Controller
     {
         Presenters _Presenters;
+        private readonly IAddMarcaUseCase _addMarcaUseCase;
+        private readonly IDeleteMarcaUseCase _deleteMarcaUseCase;
+        private readonly IGetAllMarcaUseCase _getAllMarcaUseCase;
+        private readonly IGetDetailMarcaUseCase _getDetailMarcaUseCase;
+        private readonly IUpdateMarcaUseCase _updateMarcaUseCase;
 
         public MarcaController(Presenters Presenters)
         {
@@ -29,10 +39,10 @@ namespace CooperSystem.WebApi.Controllers
         /// Adiciona Nova Marca
         /// </summary>
         /// <response code="200">Nova Marca adicionada</response>
-        [HttpPost("AddCarro")]
+        [HttpPost("AddMarca")]
         public async Task<IActionResult> AddMarca(MarcaRequest carro)
         {
-            Result<CarroResponse> result = await _AddMarcaUseCase.Execute(carro);
+            Result<MarcaResponse> result = await _addMarcaUseCase.Execute(carro);
             _Presenters.Populate(result);
             return _Presenters.ContentResult;
         }
@@ -41,10 +51,10 @@ namespace CooperSystem.WebApi.Controllers
         /// Verifica todo detalhamento da marca
         /// </summary>
         /// <response code="200">Marca verificada</response>
-        [HttpGet("GetDetailsCarro")]
+        [HttpGet("GetDetailsMarca")]
         public async Task<IActionResult> GetDetails(int id)
         {
-            Result<CarroResponse> result = await _GetDetailMarcaUseCase.Execute(id);
+            Result<MarcaResponse> result = await _getDetailMarcaUseCase.Execute(id);
             _Presenters.Populate(result);
             return _Presenters.ContentResult;
         }
@@ -53,10 +63,10 @@ namespace CooperSystem.WebApi.Controllers
         /// Verifica todas as marcas, podendo filtar através do nome e da origem
         /// </summary>
         /// <response code="200">Marcas verificadas</response>
-        [HttpGet("GetDetailsCarro")]
-        public async Task<IActionResult> GetDetails(string nome, string origem)
+        [HttpGet("GetDetailsMarca")]
+        public async Task<IActionResult> GetAll(string nome, string origem)
         {
-            Result<List<CarroGet>> result = await _GetAllMarcaUseCase.Execute(nome, origem);
+            Result<List<MarcaResponse>> result = await _getAllMarcaUseCase.Execute(nome, origem);
             _Presenters.Populate(result);
             return _Presenters.ContentResult;
         }
@@ -65,10 +75,10 @@ namespace CooperSystem.WebApi.Controllers
         /// Atualiza Marca
         /// </summary>
         /// <response code="200">Marca Atualizada</response>
-        [HttpPut("UpdateCarro")]
-        public async Task<IActionResult> UpdateCarro(CarroUpdate carro)
+        [HttpPut("UpdateMarca")]
+        public async Task<IActionResult> UpdateMarca(MarcaUpdate carro)
         {
-            Result<CarroResponse> result = await _UpdateMarcaUseCase.Execute(carro);
+            Result<MarcaResponse> result = await _updateMarcaUseCase.Execute(carro);
             _Presenters.Populate(result);
             return _Presenters.ContentResult;
         }
@@ -78,10 +88,10 @@ namespace CooperSystem.WebApi.Controllers
         /// Deleta Marca
         /// </summary>
         /// <response code="200">Marca Deletada</response>
-        [HttpDelete("DeleteCarro")]
-        public async Task<IActionResult> DeleteCarro(int id)
+        [HttpDelete("DeleteMarca")]
+        public async Task<IActionResult> DeleteMarca(int id)
         {
-            Result<string> result = await _DeleteMarcaUseCase.Execute(id);
+            Result<string> result = await _deleteMarcaUseCase.Execute(id);
             _Presenters.Populate(result);
             return _Presenters.ContentResult;
         }

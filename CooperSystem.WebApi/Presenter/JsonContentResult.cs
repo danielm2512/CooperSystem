@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace SkyJobs.WebApi.Presenter
+namespace CooperSystem.WebApi.Presenter
 {
     public sealed class JsonContentResult : ContentResult
     {

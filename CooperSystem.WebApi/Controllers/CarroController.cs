@@ -1,4 +1,9 @@
-﻿using CooperSystem.Domain.Dto;
+﻿using CooperSystem.Application.UseCases.Carro.AddCarro;
+using CooperSystem.Application.UseCases.Carro.DeleteCarro;
+using CooperSystem.Application.UseCases.Carro.GetAllCarro;
+using CooperSystem.Application.UseCases.Carro.GetDatailCarro;
+using CooperSystem.Application.UseCases.Carro.UpdateCarro;
+using CooperSystem.Domain.Dto;
 using CooperSystem.WebApi.Presenter;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -20,10 +25,26 @@ namespace CooperSystem.WebApi.Controllers
     public class CarroController : Controller
     {
         Presenters _Presenters;
+        private readonly IAddCarroUseCase _addCarroUseCase;
+        private readonly IDeleteCarroUseCase _deleteCarroUseCase;
+        private readonly IGetAllCarroUseCase _getAllCarroUseCase;
+        private readonly IGetDatailCarroUseCase _getDatailCarroUseCase;
+        private readonly IUpdateCarroUseCase _updateCarroUseCase;
 
-        public CarroController(Presenters Presenters)
+        public CarroController(Presenters Presenters,
+            IAddCarroUseCase addCarroUseCase,
+            IDeleteCarroUseCase deleteCarroUseCase,
+            IGetAllCarroUseCase getAllCarroUseCase,
+            IGetDatailCarroUseCase getDatailCarroUseCase,
+            IUpdateCarroUseCase updateCarroUseCase
+            )
         {
             _Presenters = Presenters;
+            _addCarroUseCase = addCarroUseCase;
+            _deleteCarroUseCase = deleteCarroUseCase;
+            _getAllCarroUseCase = getAllCarroUseCase;
+            _getDatailCarroUseCase = getDatailCarroUseCase;
+            _updateCarroUseCase = updateCarroUseCase;
         }
         /// <summary>
         /// Adiciona Novo Carro
@@ -32,7 +53,7 @@ namespace CooperSystem.WebApi.Controllers
         [HttpPost("AddCarro")]
         public async Task<IActionResult> AddCarro(CarroRequest carro)
         {
-            Result<CarroResponse> result = await _AddCarroUseCase.Execute(carro);
+            Result<CarroResponse> result = await _addCarroUseCase.Execute(carro);
             _Presenters.Populate(result);
             return _Presenters.ContentResult;
         }
@@ -44,7 +65,7 @@ namespace CooperSystem.WebApi.Controllers
         [HttpGet("GetDetailsCarro")]
         public async Task<IActionResult> GetDetails(int id)
         {
-            Result<CarroResponse> result = await _GetDetailCarroUseCase.Execute(id);
+            Result<CarroResponse> result = await _getDatailCarroUseCase.Execute(id);
             _Presenters.Populate(result);
             return _Presenters.ContentResult;
         }
@@ -54,9 +75,9 @@ namespace CooperSystem.WebApi.Controllers
         /// </summary>
         /// <response code="200">Carros verificados</response>
         [HttpGet("GetDetailsCarro")]
-        public async Task<IActionResult> GetDetails(string nome, string origem)
+        public async Task<IActionResult> GetAll(string nome, string origem)
         {
-            Result<List<CarroGet>> result = await _GetAllCarroUseCase.Execute(nome, origem);
+            Result<List<CarroGet>> result = await _getAllCarroUseCase.Execute(nome, origem);
             _Presenters.Populate(result);
             return _Presenters.ContentResult;
         }
@@ -68,7 +89,7 @@ namespace CooperSystem.WebApi.Controllers
         [HttpPut("UpdateCarro")]
         public async Task<IActionResult> UpdateCarro(CarroUpdate carro)
         {
-            Result<CarroResponse> result = await _UpdateCarroUseCase.Execute(carro);
+            Result<CarroResponse> result = await _updateCarroUseCase.Execute(carro);
             _Presenters.Populate(result);
             return _Presenters.ContentResult;
         }
@@ -81,7 +102,7 @@ namespace CooperSystem.WebApi.Controllers
         [HttpDelete("DeleteCarro")]
         public async Task<IActionResult> DeleteCarro(int id)
         {
-            Result<string> result = await _DeleteCarroUseCase.Execute(id);
+            Result<string> result = await _deleteCarroUseCase.Execute(id);
             _Presenters.Populate(result);
             return _Presenters.ContentResult;
         }

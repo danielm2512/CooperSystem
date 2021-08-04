@@ -1,7 +1,5 @@
 ﻿using CooperSystem.Domain.Dto;
 using CooperSystem.WebApi.Serialization;
-using SkyJobs.WebApi.Presenter;
-using System;
 using System.Net;
 
 namespace CooperSystem.WebApi.Presenter

@@ -1,0 +1,14 @@
+﻿using CooperSystem.Domain.Dto;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace CooperSystem.Application.UseCases.Marca.AddMarca
+{
+    public interface IAddMarcaUseCase
+    {
+        Task<Result<MarcaResponse>> Execute(MarcaRequest marca);
+    }
+}
