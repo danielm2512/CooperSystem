@@ -35,6 +35,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CooperSystem.Aplication\CooperSystem.Application.csproj" />
+    <ProjectReference Include="..\CooperSystem.Domain\CooperSystem.Domain.csproj" />
     <ProjectReference Include="..\CooperSystem.Infrastructure\CooperSystem.Infrastructure.csproj">
       <TreatAsUsed>true</TreatAsUsed>
     </ProjectReference>

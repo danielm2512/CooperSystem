@@ -1,8 +1,6 @@
 ﻿using CooperSystem.Domain.Dto;
+using CooperSystem.Domain.Repositories;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace CooperSystem.Application.UseCases.Marca.AddMarca
@@ -22,9 +20,9 @@ namespace CooperSystem.Application.UseCases.Marca.AddMarca
             try
             {
 
-                var marcaAdicionada = _marcaRepository.Add(marca);
+                var marcaAdicionada = await _marcaRepository.Add(marca);
 
-                if (marcaAdicionada.Id == 0)
+                if (marcaAdicionada == null)
                 {
                     result = new Result<MarcaResponse>
                     {

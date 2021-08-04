@@ -1,8 +1,7 @@
 ﻿using CooperSystem.Domain.Dto;
+using CooperSystem.Domain.Repositories;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace CooperSystem.Application.UseCases.Carro.GetAllCarro
@@ -22,9 +21,9 @@ namespace CooperSystem.Application.UseCases.Carro.GetAllCarro
             try
             {
 
-                var getcarro = _carroRepository.GetAll(nome,origem);
+                var getcarro = await _carroRepository.GetAll(nome,origem);
 
-                if (getcarro == null )
+                if (getcarro.Count == 0 )
                 {
                     result = new Result<List<CarroGet>>
                     {

@@ -1,8 +1,6 @@
 ﻿using CooperSystem.Domain.Dto;
+using CooperSystem.Domain.Repositories;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace CooperSystem.Application.UseCases.Marca.GetDetailMarca
@@ -22,9 +20,9 @@ namespace CooperSystem.Application.UseCases.Marca.GetDetailMarca
             try
             {
 
-                var marca = _marcaRepository.GetDetail(id);
+                var marca = await _marcaRepository.GetDetail(id);
 
-                if (marca.Id == 0)
+                if (marca == null)
                 {
                     result = new Result<MarcaResponse>
                     {

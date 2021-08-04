@@ -31,9 +31,19 @@ namespace CooperSystem.WebApi.Controllers
         private readonly IGetDetailMarcaUseCase _getDetailMarcaUseCase;
         private readonly IUpdateMarcaUseCase _updateMarcaUseCase;
 
-        public MarcaController(Presenters Presenters)
+        public MarcaController(Presenters Presenters,
+        IAddMarcaUseCase addMarcaUseCase,
+        IDeleteMarcaUseCase deleteMarcaUseCase,
+        IGetAllMarcaUseCase getAllMarcaUseCase,
+        IGetDetailMarcaUseCase getDetailMarcaUseCase,
+        IUpdateMarcaUseCase updateMarcaUseCase)
         {
             _Presenters = Presenters;
+            _addMarcaUseCase = addMarcaUseCase;
+            _deleteMarcaUseCase = deleteMarcaUseCase;
+            _getAllMarcaUseCase = getAllMarcaUseCase;
+            _getDetailMarcaUseCase = getDetailMarcaUseCase;
+            _updateMarcaUseCase = updateMarcaUseCase;
         }
         /// <summary>
         /// Adiciona Nova Marca
@@ -63,7 +73,7 @@ namespace CooperSystem.WebApi.Controllers
         /// Verifica todas as marcas, podendo filtar através do nome e da origem
         /// </summary>
         /// <response code="200">Marcas verificadas</response>
-        [HttpGet("GetDetailsMarca")]
+        [HttpGet("GetAllMarca")]
         public async Task<IActionResult> GetAll(string nome, string origem)
         {
             Result<List<MarcaResponse>> result = await _getAllMarcaUseCase.Execute(nome, origem);

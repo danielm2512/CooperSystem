@@ -12,11 +12,13 @@
     <PackageReference Include="MongoDB.Bson" Version="2.12.4">
       <TreatAsUsed>true</TreatAsUsed>
     </PackageReference>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\CooperSystem.Aplication\CooperSystem.Application.csproj" />
     <ProjectReference Include="..\CooperSystem.Aplication\CooperSystem.Application.csproj" />
+    <ProjectReference Include="..\CooperSystem.Domain\CooperSystem.Domain.csproj" />
   </ItemGroup>
 
 </Project>

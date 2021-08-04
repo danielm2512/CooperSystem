@@ -74,7 +74,7 @@ namespace CooperSystem.WebApi.Controllers
         /// Verifica todos os carros, podendo filtar através do nome e da origem
         /// </summary>
         /// <response code="200">Carros verificados</response>
-        [HttpGet("GetDetailsCarro")]
+        [HttpGet("GetAllCarro")]
         public async Task<IActionResult> GetAll(string nome, string origem)
         {
             Result<List<CarroGet>> result = await _getAllCarroUseCase.Execute(nome, origem);

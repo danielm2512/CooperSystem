@@ -8,6 +8,6 @@ namespace CooperSystem.Domain.Dto
 {
     public abstract class MarcaString : MarcaBase
     {
-        public OrigemResponse origem { get; set; }
+        public OrigemResponse Origem { get; set; }
     }
 }

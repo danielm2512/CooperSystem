@@ -1,8 +1,6 @@
 ﻿using CooperSystem.Domain.Dto;
+using CooperSystem.Domain.Repositories;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace CooperSystem.Application.UseCases.Carro.DeleteCarro
@@ -22,7 +20,7 @@ namespace CooperSystem.Application.UseCases.Carro.DeleteCarro
             try
             {
 
-                int RowsAffected = _carroRepository.Delete(id);
+                int RowsAffected = await _carroRepository.Delete(id);
 
                 if (RowsAffected == 0 )
                 {

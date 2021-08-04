@@ -14,9 +14,9 @@
     {
       "type": "CooperSystem.Infrastructure.Data.Module",
       "properties": {
-        "ConnectionString": "Persist Security Info=False;Initial Catalog=SkytechSystem;MultipleActiveResultSets=True;data source=localhost\\SQLEXPRESS;Integrated Security=SSPI",
+        "ConnectionString": "Persist Security Info=False;Initial Catalog=CooperSystem;MultipleActiveResultSets=True;data source=localhost\\SQLEXPRESS;Integrated Security=SSPI"
       }
-    },
+    }
   ]
 }
 

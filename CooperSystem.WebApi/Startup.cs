@@ -34,7 +34,7 @@ namespace CooperSystem.WebApi
             services.AddMvc(options => options.EnableEndpointRouting = false);
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
             services.AddDbContext<ApplicationDbContext>(options =>
-            options.UseSqlServer(Configuration.GetSection("modules:1:properties:ConnectionString").Value));
+            options.UseSqlServer(Configuration.GetSection("modules:2:properties:ConnectionString").Value));
 
             services.AddIdentity<ApplicationUser, IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>()
@@ -78,7 +78,7 @@ namespace CooperSystem.WebApi
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
-            if (env.IsDevelopment())
+            if (env.IsStaging())
             {
                 app.UseDeveloperExceptionPage();
             }

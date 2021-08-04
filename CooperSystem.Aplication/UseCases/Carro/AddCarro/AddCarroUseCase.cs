@@ -1,8 +1,6 @@
 ﻿using CooperSystem.Domain.Dto;
+using CooperSystem.Domain.Repositories;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace CooperSystem.Application.UseCases.Carro.AddCarro
@@ -22,9 +20,9 @@ namespace CooperSystem.Application.UseCases.Carro.AddCarro
             try
             {
 
-                var CarroAdicionado = _carroRepository.Add(carro);
+                var CarroAdicionado = await _carroRepository.Add(carro);
 
-                if (CarroAdicionado.Id == 0 )
+                if (CarroAdicionado == null )
                 {
                     result = new Result<CarroResponse>
                     {

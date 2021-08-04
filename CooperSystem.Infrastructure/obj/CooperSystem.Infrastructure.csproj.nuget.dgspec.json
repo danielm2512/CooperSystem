@@ -181,6 +181,9 @@
             "projectReferences": {
               "E:\\ProjetosCode\\Entrevistas\\CooperSystem\\Code\\CooperSystem.Aplication\\CooperSystem.Application.csproj": {
                 "projectPath": "E:\\ProjetosCode\\Entrevistas\\CooperSystem\\Code\\CooperSystem.Aplication\\CooperSystem.Application.csproj"
+              },
+              "E:\\ProjetosCode\\Entrevistas\\CooperSystem\\Code\\CooperSystem.Domain\\CooperSystem.Domain.csproj": {
+                "projectPath": "E:\\ProjetosCode\\Entrevistas\\CooperSystem\\Code\\CooperSystem.Domain\\CooperSystem.Domain.csproj"
               }
             }
           }
@@ -206,6 +209,10 @@
             "MongoDB.Bson": {
               "target": "Package",
               "version": "[2.12.4, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
             }
           },
           "imports": [

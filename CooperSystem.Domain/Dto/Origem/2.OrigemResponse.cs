@@ -9,7 +9,7 @@ namespace CooperSystem.Domain.Dto
     public sealed class OrigemResponse : OrigemBase
     {
         public int Id { get; set; }
-        public DateTime CreateAt { get; set; }
+        public DateTime CreatedAt { get; set; }
         public DateTime UpdatedAt { get; set; }
     }
 }

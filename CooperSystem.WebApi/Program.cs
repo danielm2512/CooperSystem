@@ -19,7 +19,7 @@ namespace CooperSystem.WebApi
                 {
                     IHostingEnvironment env = (IHostingEnvironment)builderContext.HostingEnvironment;
 
-                    if (env.IsDevelopment())
+                    if (env.IsStaging())
                     {
                         config.AddJsonFile("autofacCooperSystem.json");
                     }

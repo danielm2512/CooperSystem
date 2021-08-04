@@ -1,8 +1,7 @@
 ﻿using CooperSystem.Domain.Dto;
+using CooperSystem.Domain.Repositories;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace CooperSystem.Application.UseCases.Marca.GetAllMarca
@@ -22,9 +21,9 @@ namespace CooperSystem.Application.UseCases.Marca.GetAllMarca
             try
             {
 
-                var marcas = _marcaRepository.GetAll(nome, origem);
+                var marcas = await _marcaRepository.GetAll(nome, origem);
 
-                if (marcas == null)
+                if (marcas.Count == 0)
                 {
                     result = new Result<List<MarcaResponse>>
                     {

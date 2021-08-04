@@ -1,8 +1,6 @@
 ﻿using CooperSystem.Domain.Dto;
+using CooperSystem.Domain.Repositories;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace CooperSystem.Application.UseCases.Marca.UpdateMarca
@@ -22,9 +20,9 @@ namespace CooperSystem.Application.UseCases.Marca.UpdateMarca
             try
             {
 
-                var marcaAtualizada = _marcaRepository.Update(marca);
+                var marcaAtualizada = await _marcaRepository.Update(marca);
 
-                if (marcaAtualizada == 0)
+                if (marcaAtualizada == null)
                 {
                     result = new Result<MarcaResponse>
                     {
