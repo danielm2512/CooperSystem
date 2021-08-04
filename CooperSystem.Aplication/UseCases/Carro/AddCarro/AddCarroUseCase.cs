@@ -38,7 +38,8 @@ namespace CooperSystem.Application.UseCases.Carro.AddCarro
                     {
                         Sucess = true,
                         Message = "Sucess",
-                        Data = CarroAdicionado
+                        Data = CarroAdicionado,
+                        Total = 1
                     };
                 }
 

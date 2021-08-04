@@ -4,9 +4,12 @@ using CooperSystem.Application.UseCases.Carro.GetAllCarro;
 using CooperSystem.Application.UseCases.Carro.GetDatailCarro;
 using CooperSystem.Application.UseCases.Carro.UpdateCarro;
 using CooperSystem.Domain.Dto;
+using CooperSystem.WebApi.Examples;
+using CooperSystem.WebApi.Examples.Carro;
 using CooperSystem.WebApi.Presenter;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Swashbuckle.AspNetCore.Filters;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -50,7 +53,10 @@ namespace CooperSystem.WebApi.Controllers
         /// Adiciona Novo Carro
         /// </summary>
         /// <response code="200">Novo Carro Criado</response>
+        [SwaggerRequestExample(typeof(CarroRequest), typeof(AddCarroRequestExample))]
         [HttpPost("AddCarro")]
+        [ProducesResponseType(typeof(Result<CarroResponse>), StatusCodes.Status200OK)]
+        [SwaggerResponseExample(200, typeof(AddCarroResponseExample))]
         public async Task<IActionResult> AddCarro(CarroRequest carro)
         {
             Result<CarroResponse> result = await _addCarroUseCase.Execute(carro);
@@ -63,6 +69,8 @@ namespace CooperSystem.WebApi.Controllers
         /// </summary>
         /// <response code="200">Carro verificado</response>
         [HttpGet("GetDetailsCarro")]
+        [ProducesResponseType(typeof(Result<CarroResponse>), StatusCodes.Status200OK)]
+        [SwaggerResponseExample(200, typeof(AddCarroResponseExample))]
         public async Task<IActionResult> GetDetails(int id)
         {
             Result<CarroResponse> result = await _getDatailCarroUseCase.Execute(id);
@@ -75,6 +83,8 @@ namespace CooperSystem.WebApi.Controllers
         /// </summary>
         /// <response code="200">Carros verificados</response>
         [HttpGet("GetAllCarro")]
+        [ProducesResponseType(typeof(Result<CarroGet>), StatusCodes.Status200OK)]
+        [SwaggerResponseExample(200, typeof(GetCarrosResponseExample))]
         public async Task<IActionResult> GetAll(string nome, string origem)
         {
             Result<List<CarroGet>> result = await _getAllCarroUseCase.Execute(nome, origem);
@@ -86,7 +96,10 @@ namespace CooperSystem.WebApi.Controllers
         /// Atualiza Carro
         /// </summary>
         /// <response code="200">Carro Atualizado</response>
+        [SwaggerRequestExample(typeof(CarroUpdate), typeof(UpdateCarrosRequestExample))]
         [HttpPut("UpdateCarro")]
+        [ProducesResponseType(typeof(Result<CarroResponse>), StatusCodes.Status200OK)]
+        [SwaggerResponseExample(200, typeof(AddCarroResponseExample))]
         public async Task<IActionResult> UpdateCarro(CarroUpdate carro)
         {
             Result<CarroResponse> result = await _updateCarroUseCase.Execute(carro);
@@ -100,6 +113,8 @@ namespace CooperSystem.WebApi.Controllers
         /// </summary>
         /// <response code="200">Carro Deletado</response>
         [HttpDelete("DeleteCarro")]
+        [ProducesResponseType(typeof(Result<string>), StatusCodes.Status200OK)]
+        [SwaggerResponseExample(200, typeof(DeleteExample))]
         public async Task<IActionResult> DeleteCarro(int id)
         {
             Result<string> result = await _deleteCarroUseCase.Execute(id);

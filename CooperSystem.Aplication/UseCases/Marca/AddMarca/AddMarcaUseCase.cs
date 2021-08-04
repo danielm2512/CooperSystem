@@ -38,7 +38,8 @@ namespace CooperSystem.Application.UseCases.Marca.AddMarca
                     {
                         Sucess = true,
                         Message = "Sucess",
-                        Data = marcaAdicionada
+                        Data = marcaAdicionada,
+                        Total = 1
                     };
                 }
 

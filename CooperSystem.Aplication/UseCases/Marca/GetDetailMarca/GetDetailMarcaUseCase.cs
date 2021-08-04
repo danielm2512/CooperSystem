@@ -38,7 +38,8 @@ namespace CooperSystem.Application.UseCases.Marca.GetDetailMarca
                     {
                         Sucess = true,
                         Message = "Sucess",
-                        Data = marca
+                        Data = marca,
+                        Total = 1
                     };
                 }
 

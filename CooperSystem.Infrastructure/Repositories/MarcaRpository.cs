@@ -25,15 +25,13 @@ namespace CooperSystem.Infrastructure.Data.Repositories
             {
                 using (IDbConnection db = new SqlConnection(connectionString))
                 {
-                    string insertSql = @"INSERT INTO Marca (Nome, OrigemId, CreatedAt, UpdatedAt )
-                                        VALUES (@Nome, @OrigemId, @CreatedAt, @UpdatedAt)
+                    string insertSql = @"INSERT INTO Marca (Nome, OrigemId )
+                                        VALUES (@Nome, @OrigemId)
                                         SELECT CAST(SCOPE_IDENTITY() as int)";
 
                     DynamicParameters Parameters = new DynamicParameters();
                     Parameters.Add("@Nome", marca.Nome);
                     Parameters.Add("@OrigemId", marca.OrigemId);
-                    Parameters.Add("@CreatedAt", DateTime.Now);
-                    Parameters.Add("@UpdatedAt", DateTime.Now);
 
                     var id = db.QueryAsync<int>(insertSql, Parameters).Result.SingleOrDefault();
 

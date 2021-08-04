@@ -39,7 +39,8 @@ namespace CooperSystem.Application.UseCases.Carro.GetAllCarro
                     {
                         Sucess = true,
                         Message = "Sucess",
-                        Data = getcarro
+                        Data = getcarro,
+                        Total = getcarro.Count
                     };
                 }
 

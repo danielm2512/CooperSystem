@@ -38,7 +38,8 @@ namespace CooperSystem.Application.UseCases.Marca.UpdateMarca
                     {
                         Sucess = true,
                         Message = "Sucess",
-                        Data = marcaAtualizada
+                        Data = marcaAtualizada,
+                        Total = 1
                     };
                 }
 

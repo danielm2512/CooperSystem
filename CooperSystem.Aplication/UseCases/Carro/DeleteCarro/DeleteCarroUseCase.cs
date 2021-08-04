@@ -37,7 +37,7 @@ namespace CooperSystem.Application.UseCases.Carro.DeleteCarro
                     result = new Result<string>
                     {
                         Sucess = true,
-                        Message = "Sucess",
+                        Message = "removido com sucesso",
                         Data = "Carro deletado"
                     };
                 }

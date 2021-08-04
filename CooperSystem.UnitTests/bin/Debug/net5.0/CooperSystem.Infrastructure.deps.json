@@ -10,6 +10,7 @@
         "dependencies": {
           "Autofac": "6.2.0",
           "CooperSystem.Application": "1.0.0",
+          "CooperSystem.Domain": "1.0.0",
           "Dapper": "2.0.90",
           "MongoDB.Bson": "2.12.4",
           "System.Data.SqlClient": "4.8.2"

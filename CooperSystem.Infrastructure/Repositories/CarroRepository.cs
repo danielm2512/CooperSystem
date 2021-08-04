@@ -25,8 +25,8 @@ namespace CooperSystem.Infrastructure.Data.Repositories
             {
                 using (IDbConnection db = new SqlConnection(connectionString))
                 {
-                    string insertSql = @"INSERT INTO Carro (Nome, [Km_por_galao], Cilindros,[Cavalor_de_forca], Peso, Aceleracao, Ano,  OrigemId, CreatedAt, UpdatedAt )
-                                        VALUES (@Nome, @Km_por_galao, @Cilindros, @Cavalor_de_forca, @Peso, @Aceleracao, @Ano,  @OrigemId, @CreatedAt, @UpdatedAt)
+                    string insertSql = @"INSERT INTO Carro (Nome, [Km_por_galao], Cilindros,[Cavalor_de_forca], Peso, Aceleracao, Ano,  OrigemId)
+                                        VALUES (@Nome, @Km_por_galao, @Cilindros, @Cavalor_de_forca, @Peso, @Aceleracao, @Ano,  @OrigemId)
                                         SELECT CAST(SCOPE_IDENTITY() as int)";
 
                     DynamicParameters Parameters = new DynamicParameters();
@@ -38,8 +38,6 @@ namespace CooperSystem.Infrastructure.Data.Repositories
                     Parameters.Add("@Aceleracao", carro.Aceleracao);
                     Parameters.Add("@Ano", carro.Ano);
                     Parameters.Add("@OrigemId", carro.OrigemId);
-                    Parameters.Add("@CreatedAt", DateTime.Now);
-                    Parameters.Add("@UpdatedAt", DateTime.Now);
 
                     var id = db.QueryAsync<int>(insertSql, Parameters).Result.SingleOrDefault();
 

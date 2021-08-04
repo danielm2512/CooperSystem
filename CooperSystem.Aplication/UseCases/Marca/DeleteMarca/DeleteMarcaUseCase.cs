@@ -37,7 +37,7 @@ namespace CooperSystem.Application.UseCases.Marca.DeleteMarca
                     result = new Result<string>
                     {
                         Sucess = true,
-                        Message = "Sucess",
+                        Message = "removido com sucesso",
                         Data = "Marca Deletada"
                     };
                 }

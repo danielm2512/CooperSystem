@@ -37,6 +37,7 @@
           "Autofac.Configuration": "6.0.0",
           "Autofac.Extensions.DependencyInjection": "7.1.0",
           "CooperSystem.Application": "1.0.0",
+          "CooperSystem.Domain": "1.0.0",
           "CooperSystem.Infrastructure": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "5.0.6",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.6",
@@ -2742,6 +2743,7 @@
         "dependencies": {
           "Autofac": "6.2.0",
           "CooperSystem.Application": "1.0.0",
+          "CooperSystem.Domain": "1.0.0",
           "Dapper": "2.0.90",
           "MongoDB.Bson": "2.12.4",
           "System.Data.SqlClient": "4.8.2"

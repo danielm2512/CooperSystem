@@ -4,9 +4,12 @@ using CooperSystem.Application.UseCases.Marca.GetAllMarca;
 using CooperSystem.Application.UseCases.Marca.GetDetailMarca;
 using CooperSystem.Application.UseCases.Marca.UpdateMarca;
 using CooperSystem.Domain.Dto;
+using CooperSystem.WebApi.Examples;
+using CooperSystem.WebApi.Examples.Carro;
 using CooperSystem.WebApi.Presenter;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Swashbuckle.AspNetCore.Filters;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -49,7 +52,10 @@ namespace CooperSystem.WebApi.Controllers
         /// Adiciona Nova Marca
         /// </summary>
         /// <response code="200">Nova Marca adicionada</response>
+        [SwaggerRequestExample(typeof(MarcaRequest), typeof(AddMarcaRequestExample))]
         [HttpPost("AddMarca")]
+        [ProducesResponseType(typeof(Result<MarcaResponse>), StatusCodes.Status200OK)]
+        [SwaggerResponseExample(200, typeof(AddMarcaResponseExample))]
         public async Task<IActionResult> AddMarca(MarcaRequest carro)
         {
             Result<MarcaResponse> result = await _addMarcaUseCase.Execute(carro);
@@ -62,6 +68,8 @@ namespace CooperSystem.WebApi.Controllers
         /// </summary>
         /// <response code="200">Marca verificada</response>
         [HttpGet("GetDetailsMarca")]
+        [ProducesResponseType(typeof(Result<MarcaResponse>), StatusCodes.Status200OK)]
+        [SwaggerResponseExample(200, typeof(AddMarcaResponseExample))]
         public async Task<IActionResult> GetDetails(int id)
         {
             Result<MarcaResponse> result = await _getDetailMarcaUseCase.Execute(id);
@@ -74,6 +82,8 @@ namespace CooperSystem.WebApi.Controllers
         /// </summary>
         /// <response code="200">Marcas verificadas</response>
         [HttpGet("GetAllMarca")]
+        [ProducesResponseType(typeof(Result<MarcaResponse>), StatusCodes.Status200OK)]
+        [SwaggerResponseExample(200, typeof(GetMarcaResponseExample))]
         public async Task<IActionResult> GetAll(string nome, string origem)
         {
             Result<List<MarcaResponse>> result = await _getAllMarcaUseCase.Execute(nome, origem);
@@ -85,7 +95,10 @@ namespace CooperSystem.WebApi.Controllers
         /// Atualiza Marca
         /// </summary>
         /// <response code="200">Marca Atualizada</response>
+        [SwaggerRequestExample(typeof(MarcaUpdate), typeof(UpdateMarcaRequestExample))]
         [HttpPut("UpdateMarca")]
+        [ProducesResponseType(typeof(Result<MarcaResponse>), StatusCodes.Status200OK)]
+        [SwaggerResponseExample(200, typeof(AddMarcaResponseExample))]
         public async Task<IActionResult> UpdateMarca(MarcaUpdate carro)
         {
             Result<MarcaResponse> result = await _updateMarcaUseCase.Execute(carro);
@@ -99,6 +112,10 @@ namespace CooperSystem.WebApi.Controllers
         /// </summary>
         /// <response code="200">Marca Deletada</response>
         [HttpDelete("DeleteMarca")]
+        [ProducesResponseType(typeof(Result<MarcaResponse>), StatusCodes.Status200OK)]
+        [SwaggerResponseExample(200, typeof(AddMarcaResponseExample))]
+        [ProducesResponseType(typeof(Result<string>), StatusCodes.Status200OK)]
+        [SwaggerResponseExample(200, typeof(DeleteExample))]
         public async Task<IActionResult> DeleteMarca(int id)
         {
             Result<string> result = await _deleteMarcaUseCase.Execute(id);
