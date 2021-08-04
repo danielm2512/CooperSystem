@@ -10,11 +10,11 @@ using System.Threading.Tasks;
 
 namespace CooperSystem.Infrastructure.Data.Repositories
 {
-    public class MarcaRpository : IMarcaRepository
+    public class MarcaRepository : IMarcaRepository
     {
         private readonly string connectionString;
 
-        public MarcaRpository(string connectionString)
+        public MarcaRepository(string connectionString)
         {
             this.connectionString = connectionString;
         }
