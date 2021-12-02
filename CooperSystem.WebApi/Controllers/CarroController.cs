@@ -53,10 +53,10 @@ namespace CooperSystem.WebApi.Controllers
         /// Adiciona Novo Carro
         /// </summary>
         /// <response code="200">Novo Carro Criado</response>
-        [SwaggerRequestExample(typeof(CarroRequest), typeof(AddCarroRequestExample))]
+        [SwaggerRequestExample(typeof(CarroRequest), typeof(AddFipeRequestExample))]
         [HttpPost("AddCarro")]
         [ProducesResponseType(typeof(Result<CarroResponse>), StatusCodes.Status200OK)]
-        [SwaggerResponseExample(200, typeof(AddCarroResponseExample))]
+        [SwaggerResponseExample(200, typeof(AddFipeResponseExample))]
         public async Task<IActionResult> AddCarro(CarroRequest carro)
         {
             Result<CarroResponse> result = await _addCarroUseCase.Execute(carro);
@@ -70,7 +70,7 @@ namespace CooperSystem.WebApi.Controllers
         /// <response code="200">Carro verificado</response>
         [HttpGet("GetDetailsCarro")]
         [ProducesResponseType(typeof(Result<CarroResponse>), StatusCodes.Status200OK)]
-        [SwaggerResponseExample(200, typeof(AddCarroResponseExample))]
+        [SwaggerResponseExample(200, typeof(AddFipeResponseExample))]
         public async Task<IActionResult> GetDetails(int id)
         {
             Result<CarroResponse> result = await _getDatailCarroUseCase.Execute(id);
@@ -99,7 +99,7 @@ namespace CooperSystem.WebApi.Controllers
         [SwaggerRequestExample(typeof(CarroUpdate), typeof(UpdateCarrosRequestExample))]
         [HttpPut("UpdateCarro")]
         [ProducesResponseType(typeof(Result<CarroResponse>), StatusCodes.Status200OK)]
-        [SwaggerResponseExample(200, typeof(AddCarroResponseExample))]
+        [SwaggerResponseExample(200, typeof(AddFipeResponseExample))]
         public async Task<IActionResult> UpdateCarro(CarroUpdate carro)
         {
             Result<CarroResponse> result = await _updateCarroUseCase.Execute(carro);

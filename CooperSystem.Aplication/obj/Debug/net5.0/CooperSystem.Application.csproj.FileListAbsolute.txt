@@ -13,6 +13,7 @@ E:\ProjetosCode\Entrevistas\CooperSystem\Code\CooperSystem.Aplication\obj\Debug\
 E:\ProjetosCode\Entrevistas\CooperSystem\Code\CooperSystem.Aplication\obj\Debug\net5.0\CooperSystem.Application.dll
 E:\ProjetosCode\Entrevistas\CooperSystem\Code\CooperSystem.Aplication\obj\Debug\net5.0\ref\CooperSystem.Application.dll
 E:\ProjetosCode\Entrevistas\CooperSystem\Code\CooperSystem.Aplication\obj\Debug\net5.0\CooperSystem.Application.pdb
+<<<<<<< HEAD
 C:\Users\mrdoo\Documents\CooperSystem\CooperSystem.Aplication\bin\Debug\net5.0\CooperSystem.Application.deps.json
 C:\Users\mrdoo\Documents\CooperSystem\CooperSystem.Aplication\bin\Debug\net5.0\CooperSystem.Application.dll
 C:\Users\mrdoo\Documents\CooperSystem\CooperSystem.Aplication\bin\Debug\net5.0\ref\CooperSystem.Application.dll
@@ -28,3 +29,20 @@ C:\Users\mrdoo\Documents\CooperSystem\CooperSystem.Aplication\obj\Debug\net5.0\C
 C:\Users\mrdoo\Documents\CooperSystem\CooperSystem.Aplication\obj\Debug\net5.0\CooperSystem.Application.dll
 C:\Users\mrdoo\Documents\CooperSystem\CooperSystem.Aplication\obj\Debug\net5.0\ref\CooperSystem.Application.dll
 C:\Users\mrdoo\Documents\CooperSystem\CooperSystem.Aplication\obj\Debug\net5.0\CooperSystem.Application.pdb
+=======
+F:\Desenvolvimento\CooperSystem.Aplication\bin\Debug\net5.0\CooperSystem.Application.deps.json
+F:\Desenvolvimento\CooperSystem.Aplication\bin\Debug\net5.0\CooperSystem.Application.dll
+F:\Desenvolvimento\CooperSystem.Aplication\bin\Debug\net5.0\ref\CooperSystem.Application.dll
+F:\Desenvolvimento\CooperSystem.Aplication\bin\Debug\net5.0\CooperSystem.Application.pdb
+F:\Desenvolvimento\CooperSystem.Aplication\bin\Debug\net5.0\CooperSystem.Domain.dll
+F:\Desenvolvimento\CooperSystem.Aplication\bin\Debug\net5.0\CooperSystem.Domain.pdb
+F:\Desenvolvimento\CooperSystem.Aplication\obj\Debug\net5.0\CooperSystem.Application.csproj.AssemblyReference.cache
+F:\Desenvolvimento\CooperSystem.Aplication\obj\Debug\net5.0\CooperSystem.Application.GeneratedMSBuildEditorConfig.editorconfig
+F:\Desenvolvimento\CooperSystem.Aplication\obj\Debug\net5.0\CooperSystem.Application.AssemblyInfoInputs.cache
+F:\Desenvolvimento\CooperSystem.Aplication\obj\Debug\net5.0\CooperSystem.Application.AssemblyInfo.cs
+F:\Desenvolvimento\CooperSystem.Aplication\obj\Debug\net5.0\CooperSystem.Application.csproj.CoreCompileInputs.cache
+F:\Desenvolvimento\CooperSystem.Aplication\obj\Debug\net5.0\CooperSystem.Application.csproj.CopyComplete
+F:\Desenvolvimento\CooperSystem.Aplication\obj\Debug\net5.0\CooperSystem.Application.dll
+F:\Desenvolvimento\CooperSystem.Aplication\obj\Debug\net5.0\ref\CooperSystem.Application.dll
+F:\Desenvolvimento\CooperSystem.Aplication\obj\Debug\net5.0\CooperSystem.Application.pdb
+>>>>>>> Code2nay

@@ -4460,11 +4460,16 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\mrdoo\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\dayvi\\.nuget\\packages\\": {}
+>>>>>>> Code2nay
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\mrdoo\\Documents\\CooperSystem\\CooperSystem.Aplication\\CooperSystem.Application.csproj",
       "projectName": "CooperSystem.Application",
       "projectPath": "C:\\Users\\mrdoo\\Documents\\CooperSystem\\CooperSystem.Aplication\\CooperSystem.Application.csproj",
@@ -4473,6 +4478,16 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mrdoo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+      "projectUniqueName": "F:\\Desenvolvimento\\CooperSystem.Aplication\\CooperSystem.Application.csproj",
+      "projectName": "CooperSystem.Application",
+      "projectPath": "F:\\Desenvolvimento\\CooperSystem.Aplication\\CooperSystem.Application.csproj",
+      "packagesPath": "C:\\Users\\dayvi\\.nuget\\packages\\",
+      "outputPath": "F:\\Desenvolvimento\\CooperSystem.Aplication\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\dayvi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> Code2nay
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4486,8 +4501,13 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+<<<<<<< HEAD
             "C:\\Users\\mrdoo\\Documents\\CooperSystem\\CooperSystem.Domain\\CooperSystem.Domain.csproj": {
               "projectPath": "C:\\Users\\mrdoo\\Documents\\CooperSystem\\CooperSystem.Domain\\CooperSystem.Domain.csproj"
+=======
+            "F:\\Desenvolvimento\\CooperSystem.Domain\\CooperSystem.Domain.csproj": {
+              "projectPath": "F:\\Desenvolvimento\\CooperSystem.Domain\\CooperSystem.Domain.csproj"
+>>>>>>> Code2nay
             }
           }
         }
@@ -4534,7 +4554,11 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+>>>>>>> Code2nay
       }
     }
   }

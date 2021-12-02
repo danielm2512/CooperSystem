@@ -4,7 +4,7 @@ using System;
 
 namespace CooperSystem.WebApi.Examples.Carro
 {
-    public sealed class AddCarroResponseExample : IExamplesProvider<Result<CarroResponse>>
+    public sealed class AddFipeResponseExample : IExamplesProvider<Result<CarroResponse>>
     {
         public Result<CarroResponse> GetExamples()
         {

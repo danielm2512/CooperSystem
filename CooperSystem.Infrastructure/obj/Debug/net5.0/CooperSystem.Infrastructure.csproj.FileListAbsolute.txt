@@ -15,6 +15,7 @@ E:\ProjetosCode\Entrevistas\CooperSystem\Code\CooperSystem.Infrastructure\obj\De
 E:\ProjetosCode\Entrevistas\CooperSystem\Code\CooperSystem.Infrastructure\obj\Debug\net5.0\CooperSystem.Infrastructure.dll
 E:\ProjetosCode\Entrevistas\CooperSystem\Code\CooperSystem.Infrastructure\obj\Debug\net5.0\ref\CooperSystem.Infrastructure.dll
 E:\ProjetosCode\Entrevistas\CooperSystem\Code\CooperSystem.Infrastructure\obj\Debug\net5.0\CooperSystem.Infrastructure.pdb
+<<<<<<< HEAD
 C:\Users\mrdoo\Documents\CooperSystem\CooperSystem.Infrastructure\bin\Debug\net5.0\CooperSystem.Infrastructure.deps.json
 C:\Users\mrdoo\Documents\CooperSystem\CooperSystem.Infrastructure\bin\Debug\net5.0\CooperSystem.Infrastructure.dll
 C:\Users\mrdoo\Documents\CooperSystem\CooperSystem.Infrastructure\bin\Debug\net5.0\ref\CooperSystem.Infrastructure.dll
@@ -32,3 +33,22 @@ C:\Users\mrdoo\Documents\CooperSystem\CooperSystem.Infrastructure\obj\Debug\net5
 C:\Users\mrdoo\Documents\CooperSystem\CooperSystem.Infrastructure\obj\Debug\net5.0\CooperSystem.Infrastructure.dll
 C:\Users\mrdoo\Documents\CooperSystem\CooperSystem.Infrastructure\obj\Debug\net5.0\ref\CooperSystem.Infrastructure.dll
 C:\Users\mrdoo\Documents\CooperSystem\CooperSystem.Infrastructure\obj\Debug\net5.0\CooperSystem.Infrastructure.pdb
+=======
+F:\Desenvolvimento\CooperSystem.Infrastructure\bin\Debug\net5.0\CooperSystem.Infrastructure.deps.json
+F:\Desenvolvimento\CooperSystem.Infrastructure\bin\Debug\net5.0\CooperSystem.Infrastructure.dll
+F:\Desenvolvimento\CooperSystem.Infrastructure\bin\Debug\net5.0\ref\CooperSystem.Infrastructure.dll
+F:\Desenvolvimento\CooperSystem.Infrastructure\bin\Debug\net5.0\CooperSystem.Infrastructure.pdb
+F:\Desenvolvimento\CooperSystem.Infrastructure\bin\Debug\net5.0\CooperSystem.Application.dll
+F:\Desenvolvimento\CooperSystem.Infrastructure\bin\Debug\net5.0\CooperSystem.Domain.dll
+F:\Desenvolvimento\CooperSystem.Infrastructure\bin\Debug\net5.0\CooperSystem.Application.pdb
+F:\Desenvolvimento\CooperSystem.Infrastructure\bin\Debug\net5.0\CooperSystem.Domain.pdb
+F:\Desenvolvimento\CooperSystem.Infrastructure\obj\Debug\net5.0\CooperSystem.Infrastructure.csproj.AssemblyReference.cache
+F:\Desenvolvimento\CooperSystem.Infrastructure\obj\Debug\net5.0\CooperSystem.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+F:\Desenvolvimento\CooperSystem.Infrastructure\obj\Debug\net5.0\CooperSystem.Infrastructure.AssemblyInfoInputs.cache
+F:\Desenvolvimento\CooperSystem.Infrastructure\obj\Debug\net5.0\CooperSystem.Infrastructure.AssemblyInfo.cs
+F:\Desenvolvimento\CooperSystem.Infrastructure\obj\Debug\net5.0\CooperSystem.Infrastructure.csproj.CoreCompileInputs.cache
+F:\Desenvolvimento\CooperSystem.Infrastructure\obj\Debug\net5.0\CooperSystem.Infrastructure.csproj.CopyComplete
+F:\Desenvolvimento\CooperSystem.Infrastructure\obj\Debug\net5.0\CooperSystem.Infrastructure.dll
+F:\Desenvolvimento\CooperSystem.Infrastructure\obj\Debug\net5.0\ref\CooperSystem.Infrastructure.dll
+F:\Desenvolvimento\CooperSystem.Infrastructure\obj\Debug\net5.0\CooperSystem.Infrastructure.pdb
+>>>>>>> Code2nay
