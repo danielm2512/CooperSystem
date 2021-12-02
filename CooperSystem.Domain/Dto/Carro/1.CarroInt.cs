@@ -9,5 +9,6 @@ namespace CooperSystem.Domain.Dto
     public abstract class CarroInt : CarroBase
     {
         public int OrigemId { get; set; }
+        public int FipeId { get; set; }
     }
 }

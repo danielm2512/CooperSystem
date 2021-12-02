@@ -10,3 +10,15 @@ E:\ProjetosCode\Entrevistas\CooperSystem\Code\CooperSystem.Domain\obj\Debug\net5
 E:\ProjetosCode\Entrevistas\CooperSystem\Code\CooperSystem.Domain\obj\Debug\net5.0\CooperSystem.Domain.dll
 E:\ProjetosCode\Entrevistas\CooperSystem\Code\CooperSystem.Domain\obj\Debug\net5.0\ref\CooperSystem.Domain.dll
 E:\ProjetosCode\Entrevistas\CooperSystem\Code\CooperSystem.Domain\obj\Debug\net5.0\CooperSystem.Domain.pdb
+F:\Desenvolvimento\CooperSystem.Domain\bin\Debug\net5.0\CooperSystem.Domain.deps.json
+F:\Desenvolvimento\CooperSystem.Domain\bin\Debug\net5.0\CooperSystem.Domain.dll
+F:\Desenvolvimento\CooperSystem.Domain\bin\Debug\net5.0\ref\CooperSystem.Domain.dll
+F:\Desenvolvimento\CooperSystem.Domain\bin\Debug\net5.0\CooperSystem.Domain.pdb
+F:\Desenvolvimento\CooperSystem.Domain\obj\Debug\net5.0\CooperSystem.Domain.csproj.AssemblyReference.cache
+F:\Desenvolvimento\CooperSystem.Domain\obj\Debug\net5.0\CooperSystem.Domain.GeneratedMSBuildEditorConfig.editorconfig
+F:\Desenvolvimento\CooperSystem.Domain\obj\Debug\net5.0\CooperSystem.Domain.AssemblyInfoInputs.cache
+F:\Desenvolvimento\CooperSystem.Domain\obj\Debug\net5.0\CooperSystem.Domain.AssemblyInfo.cs
+F:\Desenvolvimento\CooperSystem.Domain\obj\Debug\net5.0\CooperSystem.Domain.csproj.CoreCompileInputs.cache
+F:\Desenvolvimento\CooperSystem.Domain\obj\Debug\net5.0\CooperSystem.Domain.dll
+F:\Desenvolvimento\CooperSystem.Domain\obj\Debug\net5.0\ref\CooperSystem.Domain.dll
+F:\Desenvolvimento\CooperSystem.Domain\obj\Debug\net5.0\CooperSystem.Domain.pdb

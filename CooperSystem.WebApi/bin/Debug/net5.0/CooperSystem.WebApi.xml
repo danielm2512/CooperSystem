@@ -38,6 +38,40 @@
             </summary>
             <response code="200">Carro Deletado</response>
         </member>
+        <member name="T:CooperSystem.WebApi.Controllers.FipeController">
+            <response code="400">Review information</response>
+            <response code="500">Something wrong in code</response>
+        </member>
+        <member name="M:CooperSystem.WebApi.Controllers.FipeController.AddFipe(CooperSystem.Domain.Dto.Fipe.FipeRequest)">
+            <summary>
+            Adiciona Novo Fipe
+            </summary>
+            <response code="200">Novo Fipe Criado</response>
+        </member>
+        <member name="M:CooperSystem.WebApi.Controllers.FipeController.GetDetails(System.Int32)">
+            <summary>
+            Verifica detalhe de um registro fipe
+            </summary>
+            <response code="200">Fipe verificado</response>
+        </member>
+        <member name="M:CooperSystem.WebApi.Controllers.FipeController.GetAll(System.String,System.String)">
+            <summary>
+            Verifica todos os registro de fipe, podendo filtar através do nome e o ano
+            </summary>
+            <response code="200">Fipes verificados</response>
+        </member>
+        <member name="M:CooperSystem.WebApi.Controllers.FipeController.UpdateCarro(CooperSystem.Domain.Dto.Fipe.FipeUpdate)">
+            <summary>
+            Atualiza Fipe
+            </summary>
+            <response code="200">Fipe Atualizado</response>
+        </member>
+        <member name="M:CooperSystem.WebApi.Controllers.FipeController.DeleteFipe(System.Int32)">
+            <summary>
+            Deleta Fipe
+            </summary>
+            <response code="200">Fipe Deletado</response>
+        </member>
         <member name="T:CooperSystem.WebApi.Controllers.MarcaController">
             <response code="400">Review information</response>
             <response code="500">Something wrong in code</response>

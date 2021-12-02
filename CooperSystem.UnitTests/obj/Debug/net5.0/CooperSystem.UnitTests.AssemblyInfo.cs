@@ -12,11 +12,11 @@ using System;
 using System.Reflection;
 
 [assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap4")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("CooperSystem.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "E:\\ProjetosCode\\Entrevistas\\CooperSystem\\Code\\CooperSystem.Aplication", "CooperSystem.Application.csproj", "0")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("CooperSystem.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "E:\\ProjetosCode\\Entrevistas\\CooperSystem\\Code\\CooperSystem.Domain", "CooperSystem.Domain.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("CooperSystem.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "F:\\Desenvolvimento\\CooperSystem.Aplication", "CooperSystem.Application.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("CooperSystem.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "F:\\Desenvolvimento\\CooperSystem.Domain", "CooperSystem.Domain.csproj", "0")]
 [assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("CooperSystem.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=nul" +
-    "l", "E:\\ProjetosCode\\Entrevistas\\CooperSystem\\Code\\CooperSystem.Infrastructure", "CooperSystem.Infrastructure.csproj", "0")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("CooperSystem.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "E:\\ProjetosCode\\Entrevistas\\CooperSystem\\Code\\CooperSystem.WebApi", "CooperSystem.WebApi.csproj", "0")]
+    "l", "F:\\Desenvolvimento\\CooperSystem.Infrastructure", "CooperSystem.Infrastructure.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("CooperSystem.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "F:\\Desenvolvimento\\CooperSystem.WebApi", "CooperSystem.WebApi.csproj", "0")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("CooperSystem.UnitTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
