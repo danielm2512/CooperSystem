@@ -12500,35 +12500,27 @@
     ]
   },
   "packageFolders": {
-<<<<<<< HEAD
-    "C:\\Users\\mrdoo\\.nuget\\packages\\": {}
-=======
-    "C:\\Users\\dayvi\\.nuget\\packages\\": {}
->>>>>>> Code2nay
+    "C:\\Users\\danie\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "C:\\Users\\mrdoo\\Documents\\CooperSystem\\CooperSystem.UnitTests\\CooperSystem.UnitTests.csproj",
+      "projectUniqueName": "E:\\ProjetosCode\\Entrevistas\\CooperSystem\\Code\\CooperSystem.UnitTests\\CooperSystem.UnitTests.csproj",
       "projectName": "CooperSystem.UnitTests",
-      "projectPath": "C:\\Users\\mrdoo\\Documents\\CooperSystem\\CooperSystem.UnitTests\\CooperSystem.UnitTests.csproj",
-      "packagesPath": "C:\\Users\\mrdoo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mrdoo\\Documents\\CooperSystem\\CooperSystem.UnitTests\\obj\\",
+      "projectPath": "E:\\ProjetosCode\\Entrevistas\\CooperSystem\\Code\\CooperSystem.UnitTests\\CooperSystem.UnitTests.csproj",
+      "packagesPath": "C:\\Users\\danie\\.nuget\\packages\\",
+      "outputPath": "E:\\ProjetosCode\\Entrevistas\\CooperSystem\\Code\\CooperSystem.UnitTests\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\mrdoo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-      "projectUniqueName": "F:\\Desenvolvimento\\CooperSystem.UnitTests\\CooperSystem.UnitTests.csproj",
-      "projectName": "CooperSystem.UnitTests",
-      "projectPath": "F:\\Desenvolvimento\\CooperSystem.UnitTests\\CooperSystem.UnitTests.csproj",
-      "packagesPath": "C:\\Users\\dayvi\\.nuget\\packages\\",
-      "outputPath": "F:\\Desenvolvimento\\CooperSystem.UnitTests\\obj\\",
-      "projectStyle": "PackageReference",
-      "configFilePaths": [
-        "C:\\Users\\dayvi\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> Code2nay
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\danie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -12541,31 +12533,17 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-<<<<<<< HEAD
-            "C:\\Users\\mrdoo\\Documents\\CooperSystem\\CooperSystem.Aplication\\CooperSystem.Application.csproj": {
-              "projectPath": "C:\\Users\\mrdoo\\Documents\\CooperSystem\\CooperSystem.Aplication\\CooperSystem.Application.csproj"
+            "E:\\ProjetosCode\\Entrevistas\\CooperSystem\\Code\\CooperSystem.Aplication\\CooperSystem.Application.csproj": {
+              "projectPath": "E:\\ProjetosCode\\Entrevistas\\CooperSystem\\Code\\CooperSystem.Aplication\\CooperSystem.Application.csproj"
             },
-            "C:\\Users\\mrdoo\\Documents\\CooperSystem\\CooperSystem.Domain\\CooperSystem.Domain.csproj": {
-              "projectPath": "C:\\Users\\mrdoo\\Documents\\CooperSystem\\CooperSystem.Domain\\CooperSystem.Domain.csproj"
+            "E:\\ProjetosCode\\Entrevistas\\CooperSystem\\Code\\CooperSystem.Domain\\CooperSystem.Domain.csproj": {
+              "projectPath": "E:\\ProjetosCode\\Entrevistas\\CooperSystem\\Code\\CooperSystem.Domain\\CooperSystem.Domain.csproj"
             },
-            "C:\\Users\\mrdoo\\Documents\\CooperSystem\\CooperSystem.Infrastructure\\CooperSystem.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\mrdoo\\Documents\\CooperSystem\\CooperSystem.Infrastructure\\CooperSystem.Infrastructure.csproj"
+            "E:\\ProjetosCode\\Entrevistas\\CooperSystem\\Code\\CooperSystem.Infrastructure\\CooperSystem.Infrastructure.csproj": {
+              "projectPath": "E:\\ProjetosCode\\Entrevistas\\CooperSystem\\Code\\CooperSystem.Infrastructure\\CooperSystem.Infrastructure.csproj"
             },
-            "C:\\Users\\mrdoo\\Documents\\CooperSystem\\CooperSystem.WebApi\\CooperSystem.WebApi.csproj": {
-              "projectPath": "C:\\Users\\mrdoo\\Documents\\CooperSystem\\CooperSystem.WebApi\\CooperSystem.WebApi.csproj"
-=======
-            "F:\\Desenvolvimento\\CooperSystem.Aplication\\CooperSystem.Application.csproj": {
-              "projectPath": "F:\\Desenvolvimento\\CooperSystem.Aplication\\CooperSystem.Application.csproj"
-            },
-            "F:\\Desenvolvimento\\CooperSystem.Domain\\CooperSystem.Domain.csproj": {
-              "projectPath": "F:\\Desenvolvimento\\CooperSystem.Domain\\CooperSystem.Domain.csproj"
-            },
-            "F:\\Desenvolvimento\\CooperSystem.Infrastructure\\CooperSystem.Infrastructure.csproj": {
-              "projectPath": "F:\\Desenvolvimento\\CooperSystem.Infrastructure\\CooperSystem.Infrastructure.csproj"
-            },
-            "F:\\Desenvolvimento\\CooperSystem.WebApi\\CooperSystem.WebApi.csproj": {
-              "projectPath": "F:\\Desenvolvimento\\CooperSystem.WebApi\\CooperSystem.WebApi.csproj"
->>>>>>> Code2nay
+            "E:\\ProjetosCode\\Entrevistas\\CooperSystem\\Code\\CooperSystem.WebApi\\CooperSystem.WebApi.csproj": {
+              "projectPath": "E:\\ProjetosCode\\Entrevistas\\CooperSystem\\Code\\CooperSystem.WebApi\\CooperSystem.WebApi.csproj"
             }
           }
         }
@@ -12624,11 +12602,7 @@
             "privateAssets": "all"
           }
         },
-<<<<<<< HEAD
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
-=======
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
->>>>>>> Code2nay
       }
     }
   },
@@ -12637,7 +12611,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "O pacote 'Microsoft.AspNet.WebApi.Client 4.0.20710' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' em vez da estrutura de destino do projeto 'net5.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "message": "Package 'Microsoft.AspNet.WebApi.Client 4.0.20710' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.AspNet.WebApi.Client",
       "targetGraphs": [
         "net5.0"
@@ -12647,7 +12621,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "O pacote 'Microsoft.AspNet.WebApi.Core 4.0.20710' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' em vez da estrutura de destino do projeto 'net5.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "message": "Package 'Microsoft.AspNet.WebApi.Core 4.0.20710' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.AspNet.WebApi.Core",
       "targetGraphs": [
         "net5.0"
@@ -12657,7 +12631,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "O pacote 'Microsoft.Net.Http 2.0.20710' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' em vez da estrutura de destino do projeto 'net5.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "message": "Package 'Microsoft.Net.Http 2.0.20710' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.Net.Http",
       "targetGraphs": [
         "net5.0"
@@ -12667,7 +12641,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "O pacote 'Swashbuckle.Core 5.6.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' em vez da estrutura de destino do projeto 'net5.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "message": "Package 'Swashbuckle.Core 5.6.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
       "libraryId": "Swashbuckle.Core",
       "targetGraphs": [
         "net5.0"

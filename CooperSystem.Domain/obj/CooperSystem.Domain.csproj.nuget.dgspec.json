@@ -1,38 +1,26 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-    "C:\\Users\\mrdoo\\Documents\\CooperSystem\\CooperSystem.Domain\\CooperSystem.Domain.csproj": {}
+    "E:\\ProjetosCode\\Entrevistas\\CooperSystem\\Code\\CooperSystem.Domain\\CooperSystem.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mrdoo\\Documents\\CooperSystem\\CooperSystem.Domain\\CooperSystem.Domain.csproj": {
+    "E:\\ProjetosCode\\Entrevistas\\CooperSystem\\Code\\CooperSystem.Domain\\CooperSystem.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mrdoo\\Documents\\CooperSystem\\CooperSystem.Domain\\CooperSystem.Domain.csproj",
+        "projectUniqueName": "E:\\ProjetosCode\\Entrevistas\\CooperSystem\\Code\\CooperSystem.Domain\\CooperSystem.Domain.csproj",
         "projectName": "CooperSystem.Domain",
-        "projectPath": "C:\\Users\\mrdoo\\Documents\\CooperSystem\\CooperSystem.Domain\\CooperSystem.Domain.csproj",
-        "packagesPath": "C:\\Users\\mrdoo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mrdoo\\Documents\\CooperSystem\\CooperSystem.Domain\\obj\\",
+        "projectPath": "E:\\ProjetosCode\\Entrevistas\\CooperSystem\\Code\\CooperSystem.Domain\\CooperSystem.Domain.csproj",
+        "packagesPath": "C:\\Users\\danie\\.nuget\\packages\\",
+        "outputPath": "E:\\ProjetosCode\\Entrevistas\\CooperSystem\\Code\\CooperSystem.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\mrdoo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-    "F:\\Desenvolvimento\\CooperSystem.Domain\\CooperSystem.Domain.csproj": {}
-  },
-  "projects": {
-    "F:\\Desenvolvimento\\CooperSystem.Domain\\CooperSystem.Domain.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "F:\\Desenvolvimento\\CooperSystem.Domain\\CooperSystem.Domain.csproj",
-        "projectName": "CooperSystem.Domain",
-        "projectPath": "F:\\Desenvolvimento\\CooperSystem.Domain\\CooperSystem.Domain.csproj",
-        "packagesPath": "C:\\Users\\dayvi\\.nuget\\packages\\",
-        "outputPath": "F:\\Desenvolvimento\\CooperSystem.Domain\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\dayvi\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> Code2nay
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\danie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -77,11 +65,7 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
-=======
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
->>>>>>> Code2nay
         }
       }
     }
