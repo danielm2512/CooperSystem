@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <Compile Remove="Controllers\IAddPadariaUseCase.cs" />
+    <Compile Remove="Controllers\IGetAllProdutoUseCase.cs" />
   </ItemGroup>
 
   <ItemGroup>

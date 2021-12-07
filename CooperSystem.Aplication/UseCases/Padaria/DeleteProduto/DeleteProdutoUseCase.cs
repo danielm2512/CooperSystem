@@ -1,5 +1,4 @@
 ﻿using CooperSystem.Domain.Dto;
-using CooperSystem.Domain.Dto.Padaria;
 using CooperSystem.Domain.Repositories;
 using System;
 using System.Collections.Generic;
@@ -7,50 +6,49 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CooperSystem.Application.UseCases.Padaria.AddProduto
+namespace CooperSystem.Application.UseCases.Padaria.DeleteProduto
 {
-    public class AddProdutoUseCase : IAddProdutoUseCase
+    public class DeleteProdutoUseCase : IDeleteProdutoUseCase
     {
-
         private readonly IPadariaRepository _padariaRepository;
 
-        public AddProdutoUseCase(IPadariaRepository padariaRepository)
+        public DeleteProdutoUseCase(IPadariaRepository padariaRepository)
         {
             _padariaRepository = padariaRepository;
         }
-        public async Task<Result<PadariaResponse>> Execute(PadariaRequest padaria)
+
+        public async Task<Result<string>> Execute(int id)
         {
-            var result = new Result<PadariaResponse>();
+            var result = new Result<string>();
             try
             {
 
-                var ProdutoAdicionado = await _padariaRepository.Add(padaria);
+                int RowsAffected = await _padariaRepository.Delete(id);
 
-                if (ProdutoAdicionado == null )
+                if (RowsAffected == 0)
                 {
-                    result = new Result<PadariaResponse>
+                    result = new Result<string>
                     {
                         Sucess = false,
-                        Message = "Nenhum carro foi adicionado",
+                        Message = "Nenhuma produto foi deletado",
                         Data = null
                     };
                 }
 
                 else
                 {
-                    result = new Result<PadariaResponse>
+                    result = new Result<string>
                     {
                         Sucess = true,
-                        Message = "Sucess",
-                        Data = ProdutoAdicionado,
-                        Total = 1
+                        Message = "removido com sucesso",
+                        Data = "Produto Deletado"
                     };
                 }
 
             }
             catch (Exception ex)
             {
-                result = new Result<PadariaResponse>
+                result = new Result<string>
                 {
                     Sucess = false,
                     Message = "Erro",
@@ -59,5 +57,8 @@ namespace CooperSystem.Application.UseCases.Padaria.AddProduto
             }
             return result;
         }
+
     }
 }
+
+

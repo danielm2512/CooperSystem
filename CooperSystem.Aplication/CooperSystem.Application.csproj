@@ -6,11 +6,18 @@
 
   <ItemGroup>
     <Compile Remove="Interfaces\**" />
+    <Compile Remove="UseCases\Padaria\NovaPasta\**" />
     <Compile Remove="Utility\**" />
     <EmbeddedResource Remove="Interfaces\**" />
+    <EmbeddedResource Remove="UseCases\Padaria\NovaPasta\**" />
     <EmbeddedResource Remove="Utility\**" />
     <None Remove="Interfaces\**" />
+    <None Remove="UseCases\Padaria\NovaPasta\**" />
     <None Remove="Utility\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="UseCases\Padaria\DeleteProduto\IProdutoRepository.cs" />
   </ItemGroup>
 
   <ItemGroup>

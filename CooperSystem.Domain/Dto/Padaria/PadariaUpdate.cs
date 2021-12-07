@@ -6,13 +6,9 @@ using System.Threading.Tasks;
 
 namespace CooperSystem.Domain.Dto.Padaria
 {
-    public class PadariaResponse : PadariaBase
+    public sealed class PadariaUpdate : PadariaBase
     {
- 
         public int Id { get; set; }
-        public DateTime CreatedAt { get; set; }
-        public DateTime UpdatedAt { get; set; }
-        public bool Enabled { get; set; }
-
     }
 }
+

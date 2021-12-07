@@ -7,50 +7,49 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CooperSystem.Application.UseCases.Padaria.AddProduto
+namespace CooperSystem.Application.UseCases.Padaria.GetAllProduto
 {
-    public class AddProdutoUseCase : IAddProdutoUseCase
+    public class GetAllProdutoUseCase : IGetAllProdutoUseCase
     {
-
         private readonly IPadariaRepository _padariaRepository;
 
-        public AddProdutoUseCase(IPadariaRepository padariaRepository)
+        public GetAllProdutoUseCase(IPadariaRepository padariaRepository)
         {
             _padariaRepository = padariaRepository;
         }
-        public async Task<Result<PadariaResponse>> Execute(PadariaRequest padaria)
+
+        public async Task<Result<List<PadariaResponse>>> Execute(string nome, string origem)
         {
-            var result = new Result<PadariaResponse>();
+            var result = new Result<List<PadariaResponse>>();
             try
             {
 
-                var ProdutoAdicionado = await _padariaRepository.Add(padaria);
+                var produto = await _padariaRepository.GetAll(nome, origem);
 
-                if (ProdutoAdicionado == null )
+                if (produto.Count == 0)
                 {
-                    result = new Result<PadariaResponse>
+                    result = new Result<List<PadariaResponse>>
                     {
                         Sucess = false,
-                        Message = "Nenhum carro foi adicionado",
+                        Message = "Nenhum produto foi encontrado",
                         Data = null
                     };
                 }
 
                 else
                 {
-                    result = new Result<PadariaResponse>
+                    result = new Result<List<PadariaResponse>>
                     {
                         Sucess = true,
                         Message = "Sucess",
-                        Data = ProdutoAdicionado,
-                        Total = 1
+                        Data = produto
                     };
                 }
 
             }
             catch (Exception ex)
             {
-                result = new Result<PadariaResponse>
+                result = new Result<List<PadariaResponse>>
                 {
                     Sucess = false,
                     Message = "Erro",
@@ -60,4 +59,5 @@ namespace CooperSystem.Application.UseCases.Padaria.AddProduto
             return result;
         }
     }
+
 }
