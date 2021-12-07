@@ -1,10 +1,6 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "MZFw8P2cmEGhZbhOrRi6XN8sYoslKhUIVOWq98Adp/3icd0imBSYOSOzXQDKdY1O/Tj69kuIo3mtxgfOBXmiQA==",
-=======
-  "dgSpecHash": "Ic+fqRuJbhUXcxxKGoT7ZJQDJ2Y+A7L+IfDYtZZUa2tRAyfmvAELjKTxL+rabh4VIL/s6q1V0TaB4GZONJescQ==",
->>>>>>> 121367beb4f0c648556c1a0236752f76f747545c
+  "dgSpecHash": "jy9urzg7GG/c/Bkm7yuFjZyya0LtdS26BuXqeG33mATxbt5KkPtr+t9bTreqNTvrkBjJYiznFJRdLv4QlQ8vLQ==",
   "success": true,
   "projectFilePath": "E:\\ProjetosCode\\Entrevistas\\CooperSystem\\Code\\CooperSystem.Domain\\CooperSystem.Domain.csproj",
   "expectedPackageFiles": [

@@ -1,10 +1,6 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "29HOBtqrSUJ+WVygN3IIMevMcAkCIemKFVoYocfDx/KHI/wm7D0FIGG2dyMEja18B2Wv6qPf8SnrQJzRJ3nVjA==",
-=======
-  "dgSpecHash": "oUMf4lxwwwCVHLVzh+TYrynfEUPDMwWqmQiUINDKBnyJBEy6dLt761Db1QOmbu8m/ya2hVj6fMTszgPQBjhXtQ==",
->>>>>>> 121367beb4f0c648556c1a0236752f76f747545c
+  "dgSpecHash": "NSxPSwkyWqeFEZPELxnBxp5KwZ8m9WQ297KQE3GTwoXWYo2rI8jyQ/C4pmLM3vi+77kkb+M4/dIItkxE4rnAFQ==",
   "success": true,
   "projectFilePath": "E:\\ProjetosCode\\Entrevistas\\CooperSystem\\Code\\CooperSystem.WebApi\\CooperSystem.WebApi.csproj",
   "expectedPackageFiles": [
@@ -228,7 +224,8 @@
     "C:\\Users\\danie\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\danie\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
     "C:\\Users\\danie\\.nuget\\packages\\system.xml.xpath\\4.3.0\\system.xml.xpath.4.3.0.nupkg.sha512",
-    "C:\\Users\\danie\\.nuget\\packages\\system.xml.xpath.xdocument\\4.3.0\\system.xml.xpath.xdocument.4.3.0.nupkg.sha512"
+    "C:\\Users\\danie\\.nuget\\packages\\system.xml.xpath.xdocument\\4.3.0\\system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\danie\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
   ],
   "logs": [
     {

@@ -106,5 +106,35 @@
             </summary>
             <response code="200">Marca Deletada</response>
         </member>
+        <member name="M:CooperSystem.WebApi.Controllers.PadariaController.AddProduto(CooperSystem.Domain.Dto.Padaria.PadariaRequest)">
+            <summary>
+            Adiciona Novo Produto
+            </summary>
+            <response code="200">Novo Produto adicionado</response>
+        </member>
+        <member name="M:CooperSystem.WebApi.Controllers.PadariaController.DeleteProduto(System.Int32)">
+            <summary>
+            Deleta o Produto
+            </summary>
+            <response code="200">Produto deletado</response>
+        </member>
+        <member name="M:CooperSystem.WebApi.Controllers.PadariaController.GetAll(System.String,System.String)">
+            <summary>
+            Verifica todos os produtos, podendo filtar através do nome e da origem
+            </summary>
+            <response code="200">Produtos verificados</response>
+        </member>
+        <member name="M:CooperSystem.WebApi.Controllers.PadariaController.UpdateProduto(CooperSystem.Domain.Dto.Padaria.PadariaUpdate)">
+            <summary>
+            Atualizo o Produto
+            </summary>
+            <response code="200">Produto Atualizado</response>
+        </member>
+        <member name="M:CooperSystem.WebApi.Controllers.PadariaController.GetDetails(System.Int32)">
+            <summary>
+            Verifica todo detalhamento do produto
+            </summary>
+            <response code="200">Produto verificado</response>
+        </member>
     </members>
 </doc>
