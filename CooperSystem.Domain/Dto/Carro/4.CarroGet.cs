@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CooperSystem.Domain.Dto.Fipe;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,6 +12,7 @@ namespace CooperSystem.Domain.Dto
         public int Id { get; set; }
         public string Nome { get; set; }
         public OrigemResponse Origem { get; set; }
+        public FipeResponse Fipe { get; set; }
         public DateTime CreatedAt { get; set; }
         public DateTime UpdatedAt { get; set; }
 
